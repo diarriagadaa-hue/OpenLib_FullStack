@@ -25,6 +25,10 @@ InventarioMS: http://localhost:8085
 CatalogoMS: http://localhost:8084
 ReportesMS: http://localhost:8087
 NotificacionesMS: http://localhost:8086 
+InventarioMS: http://localhost:8085  Control del inventario y stock.
+CatalogoMS: http://localhost:8084  Control del catálogo de productos/datos.
+ReportesMS: http://localhost:8087 Generación de reportes e informes.
+NotificacionesMS: http://localhost:8086 Envío de notificaciones y alertas.
 
 ## Manejo de Errores y Logs
 1. Para eel manejo de Errores en el sistema implementamos un archivo centralizado (GlobalExceptionHandler). Ya que lo que hace es agarrar los errores cuando alguien escribe mal un dato en el formulario (por ejemplo, un RUT mal puesto o un correo sin el @) y devolver un mensaje limpio en JSON que diga exactamente qué falló  (como el 400 Bad Request).
@@ -33,4 +37,4 @@ NotificacionesMS: http://localhost:8086
 
 
 ## URL GitHub
-https://github.com/diarriagadaa-hue/OpenLib
+https://github.com/diarriagadaa-hue/OpenLibhttps://github.com/diarriagadaa-hue/OpenLib_FullStack
