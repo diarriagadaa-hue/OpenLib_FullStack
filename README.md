@@ -21,10 +21,6 @@ UsuarioMS: http://localhost:8080 Control de Usuarios/Lectores.
 PrestamoMS: http://localhost:8083 Control y Registro de prestamos de Libros.
 MultaMS: http://localhost:8082 Sistema de Sanciones por No devolver un Libro o Devolverlo en mal estado.
 ReseñaMS: http://localhost:8081 Sistema independiente para la Valoracion con notas del 1 al 7 y comentario de libros.
-InventarioMS: http://localhost:8085
-CatalogoMS: http://localhost:8084
-ReportesMS: http://localhost:8087
-NotificacionesMS: http://localhost:8086 
 InventarioMS: http://localhost:8085  Control del inventario y stock.
 CatalogoMS: http://localhost:8084  Control del catálogo de productos/datos.
 ReportesMS: http://localhost:8087 Generación de reportes e informes.
